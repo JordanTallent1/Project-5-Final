@@ -1,20 +1,20 @@
 circleci (Badge) Markdown: [![CircleCI](https://circleci.com/gh/JordanTallent1/Project-5-Final.svg?style=svg)](https://circleci.com/gh/JordanTallent1/Project-5-Final)
 
-To run the python script (app.py) I utilized the dockerfile:
-CMD [ "python", "app.py"]
-The other python related installations were installing tools using pip and creating the virtual environment 
-python3 -m venv ~/.devops
-source ~/.devops/bin/activate
+*To run the python script (app.py) I utilized the dockerfile:
+*CMD [ "python", "app.py"]
+*The other python related installations were installing tools using pip and creating the virtual environment 
+*python3 -m venv ~/.devops
+*source ~/.devops/bin/activate
 
-Dockerfile - This is used to create an image from step by step calls defined by a user in this case (me).
-Makefile - This does a setup/install/test of requirements defined by the user.
-app.py -  The application to run in our environment that makes prediction percentage (up/down) on the housing market.
-make_prediction.sh - runs inputs through the app.py and returns a prediction percentage (up/down) of the housing prices in Boston.
-model_data - holds all data related to the app.py used for the machine learning program.
-requirements.txt - these are all the necessary environment packages/updates for your application to work properly.
-run_docker.sh - this is used to build/run the docker image, list the docker images, and expose the proper ports/terminal to the docker file that you are running. 
-run_kubernetes.sh - This creates a pod running your docker image and opens the proper port forwarding to your docker machine and list all the pods in the node. 
-upload_docker.sh - This uploads the latest docker build to your docker hub so that you can pull it and run it in your kubernetes pod.
+*Dockerfile - This is used to create an image from step by step calls defined by a user in this case (me).
+*Makefile - This does a setup/install/test of requirements defined by the user.
+*app.py -  The application to run in our environment that makes prediction percentage (up/down) on the housing market.
+*make_prediction.sh - runs inputs through the app.py and returns a prediction percentage (up/down) of the housing prices in Boston.
+*model_data - holds all data related to the app.py used for the machine learning program.
+*requirements.txt - these are all the necessary environment packages/updates for your application to work properly.
+*run_docker.sh - this is used to build/run the docker image, list the docker images, and expose the proper ports/terminal to the docker file that you are running. 
+*run_kubernetes.sh - This creates a pod running your docker image and opens the proper port forwarding to your docker machine and list all the pods in the node. 
+*upload_docker.sh - This uploads the latest docker build to your docker hub so that you can pull it and run it in your kubernetes pod.
 
 
 ## Project Overview
