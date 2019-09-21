@@ -1,5 +1,4 @@
-circleci (Badge) Markdown: 
-[![CircleCI](https://circleci.com/gh/JordanTallent1/Project-5-Final.svg?style=svg)](https://circleci.com/gh/JordanTallent1/Project-5-Final)
+circleci (Badge) Markdown: [![CircleCI](https://circleci.com/gh/JordanTallent1/Project-5-Final.svg?style=svg)](https://circleci.com/gh/JordanTallent1/Project-5-Final)
 
 To run the python script (app.py) I utilized the dockerfile:
 CMD [ "python", "app.py"]
