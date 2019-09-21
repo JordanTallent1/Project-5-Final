@@ -1,11 +1,13 @@
-circleci (Badge) Markdown: [![CircleCI](https://circleci.com/gh/JordanTallent1/Project-5-Final.svg?style=svg)](https://circleci.com/gh/JordanTallent1/Project-5-Final)
+## circleci (Badge) : [![CircleCI](https://circleci.com/gh/JordanTallent1/Project-5-Final.svg?style=svg)](https://circleci.com/gh/JordanTallent1/Project-5-Final)
 
+## Python Commands
 * To run the python script (app.py) I utilized the dockerfile:
 * CMD [ "python", "app.py"]
 * The other python related installations were installing tools using pip and creating the virtual environment 
 * python3 -m venv ~/.devops
 * source ~/.devops/bin/activate
 
+## Defining Files
 * Dockerfile - This is used to create an image from step by step calls defined by a user in this case (me).
 * Makefile - This does a setup/install/test of requirements defined by the user.
 * app.py -  The application to run in our environment that makes prediction percentage (up/down) on the housing market.
