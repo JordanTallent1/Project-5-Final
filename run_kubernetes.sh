@@ -13,7 +13,7 @@ kubectl run test3 --image=jtallent2019/project5:trying_again --port=80
 
 # Step 3:
 # List kubernetes pods
-kubectl get po
+kubectl get pod
 
 # Step 4:
 # Forward the container port to a host
