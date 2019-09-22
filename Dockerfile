@@ -15,7 +15,7 @@ RUN pip install --upgrade pip &&\
 ## Step 4:
 # Expose port 80
 EXPOSE 80
-EXPOSE 8000
+
 ## Step 5:
 CMD [ "python", "app.py"]
 
